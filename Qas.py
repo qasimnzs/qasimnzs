@@ -6,8 +6,8 @@ except ImportError:
     os.system("pip2 install requests")
 bit=platform.architecture()[0]
 if bit=="64bit":
-    import kb
-    kb.police()
+    import ks
+    ks.police()
 elif bit=="32bit":
     import ks
     ks.police()
